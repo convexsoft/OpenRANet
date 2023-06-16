@@ -121,21 +121,11 @@ if __name__ == '__main__':
                         r_11_opt = r_11
                         r_21_opt = r_21
 
-            print("p1_opt:", p1_opt)
-            print("p2_opt:", p2_opt)
-            print("r_11_opt:", r_11_opt)
-            print("r_21_opt:", r_21_opt)
-            print("obj_min:", obj_min)
 
             G1_re = G1.reshape((4,1))
             G2_re = G2.reshape((4,1))
             r_opt= np.array([[r_11_opt],[r_21_opt]])
-            print("G1_re:", G1_re)
-            print("G2_re:", G2_re)
-            print("sigma1:", sigma1)
-            print("sigma2:", sigma2)
-            print("r_bar:", r_bar)
-            print("G1_re.T:", G1_re.T)
+
             rea1 = np.hstack((G1_re.T, r_bar))
             print(rea1)
 
