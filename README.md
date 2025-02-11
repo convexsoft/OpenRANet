@@ -1,6 +1,6 @@
 # OpenRANet: Neuralized Spectrum Access by Joint Subcarrier and Power Allocation with Optimization-based Deep Learning
 
-## Introdunction
+## Introduction
 
 This repository addresses a non-convex problem involving joint subcarrier and power control, aiming to minimize total power while satisfying rate requirements. The complexity stems from non-convexity, coupled constraints, and implicit resource uncertainties. The code primarily implements the reweighted primal-dual algorithm for achieving local optimality and the OpenRANet algorithm for approximating global optimal solutions under varying transmission rate constraints.
 
