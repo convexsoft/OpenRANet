@@ -13,3 +13,13 @@ Toy examples of problem instances, along with code for generating data for train
 The file “iteration_solver.py” implements the reweighted primal-dual algorithm for local optimality, while “OpenRANet.py” contains the implementation for constructing the OpenRANet.
 
 
+## Citing
+
+```
+@article{chen2024openranet,
+  title={OpenRANet: Neuralized Spectrum Access by Joint Subcarrier and Power Allocation with Optimization-based Deep Learning},
+  author={Chen, Siya and Tan, Chee Wei and Zhai, Xiangping and Poor, H Vincent},
+  journal={arXiv preprint arXiv:2409.12964},
+  year={2024}
+}
+```
